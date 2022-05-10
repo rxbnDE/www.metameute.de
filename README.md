@@ -55,7 +55,7 @@ Diese Webseite stellt einen strukturellen Fork der [Chaotikum-Webseite][chaotiku
 [createPost]: ./wiki/createPost.md
 [addImage]: ./wiki/addImage.md
 [addProject]: ./wiki/addProject.md
-[addProject]: ./wiki/modifyWorkshop.md
+[modifyWorkshop]: ./wiki/modifyWorkshop.md
 
 [//]: # (Externe Verweise)
 [chaotikum]: https://www.chaotikum.org
