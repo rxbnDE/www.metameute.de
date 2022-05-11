@@ -1,6 +1,6 @@
 baseurl = "https://metameute.de/"  # Include trailing slash
 # title = "Clarity"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
-copyright = "Copyright © 2022, MetaMeute Autoren; all rights reserved."
+copyright = "Copyright © 2011 - 2022, MetaMeute Autoren; all rights reserved."
 # canonifyurls = true
 paginate = 10
 theme = "hugo-clarity"
