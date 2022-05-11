@@ -1,9 +1,7 @@
 ---
-title: 'Wo kommen wir her?'
+title: 'Die neue alte Meute'
 description: 'Vom Wiedererwecken zum neuen coolen Spot'
 date: '2022-05-11T00:00:00+02:00'
-aliases:
-  - wo-kommen-wir-her
 author: 'MetaMeute'
 usePageBundles: true
 
@@ -17,8 +15,7 @@ categories:
   - MetaMeute
 tags:
   - MetaMeute
-series:
-  - Neue alte Meute
+series: ['Neue alte Meute']
 ---
 
 [Page bundles](https://gohugo.io/content-management/page-bundles/) are an optional way to [organize page resources](https://gohugo.io/content-management/page-resources/) within Hugo.
