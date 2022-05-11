@@ -1,0 +1,9 @@
+[de]
+  title = "MetaMeute"
+  LanguageName = "Deutsch"
+  weight = 2
+
+[en]
+  title = "MetaMeute" # just for the sake of showing this is possible
+  LanguageName = "English"
+  weight = 1

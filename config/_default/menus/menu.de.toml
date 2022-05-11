@@ -1,0 +1,51 @@
+[[main]]
+  name = "Startseite"
+  url = ""
+  weight = -110
+
+# Submenus are done this way: parent -> identifier
+[[main]]
+  name = "Projekte"
+  identifier = "projs"
+  weight = -108
+[[main]]
+  parent = "projs"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/"
+[[main]]
+  parent = "projs"
+  name = "Twitter"
+  url = "https://twitter.com/"
+
+[[main]]
+  name = "Über Uns"
+  url = "about/"
+  weight = -107
+
+# social menu links
+
+[[social]]
+  name = "github"
+  type = "social"
+  weight = 1
+  url = "https://github.com/MetaMeute"
+[[social]]
+  name = "twitter"
+  weight = 2
+  url = "https://twitter.com/hashtag/MetaMeute"
+[[social]]
+  name = "rss"
+  weight = 4
+  url = "index.xml"
+
+# other supported social links
+# name = "youtube"
+# url = "https://www.youtube.com/#"
+# name = "facebook"
+# url = "https://facebook.com/#"
+# name = "instagram"
+# url = "https://instagram.com/#"
+# name = "stackoverflow"
+# url = "https://stackoverflow.com/#"
+# name = "gitlab"
+# url = "https://gitlab.com/#"
