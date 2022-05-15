@@ -17,7 +17,7 @@ other = "Empfohlene Artikel"
 other = "Neueste Artikel"
 
 [404_title]
-other = "Verloren"
+other = "Diese Seite existiert nicht"
 
 [could_not_find]
 other = "Die gesuchte Seite konnte nicht gefunden werden"
