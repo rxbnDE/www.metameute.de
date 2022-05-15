@@ -12,6 +12,12 @@ Wenn du an der Webseite arbeitest, solltest du sie lokal testen. Dafür musst du
 
 Wenn du unsicher bist, wie du mit git arbeitest, gibt es dazu verschiedene Ressourcen, am besten einfach mal in deiner Suchmaschine suchen.
 
+```sh
+git clone URL ./www.metameute.de
+cd www.metameute.de
+git submodule update --init --recursive
+```
+
 ### Website lokal starten
 
 Die Website wird mit [Hugo][hugo] betrieben, das muss man also erst mal installieren. Das Tutorial dazu findet man [hier][hugo_install].
