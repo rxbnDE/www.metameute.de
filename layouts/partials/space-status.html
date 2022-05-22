@@ -1,0 +1,31 @@
+<script>
+var ready = (callback) => {
+if (document.readyState != "loading") callback();
+else document.addEventListener("DOMContentLoaded", callback);
+}
+ready(() => {
+	spaceopen();
+});
+
+function spaceopen() {
+
+	fetch("/status/spaceapi.json").then(data => {
+		console.log(data);
+		if(data.open) {
+		console.log("OPEN");
+		document.querySelector("#spaceopen").style.border = "3px solid green";
+		document.querySelector("#spaceopen").innerHTML = "<div><img src='{{ absURL "/icons/meute-icon.png"}}' id='space-open'></div>Die Meute ist offen!<br><div id='space-status'><a href='http://status.metameute.de/' target='_blank'>Status</a></div>";
+		} else {
+		console.log("CLOSED");
+		document.querySelector("#spaceopen").style.border = "3px solid red";
+		document.querySelector("#spaceopen").innerHTML = "<div><img src='{{ absURL "/icons/meute-icon.png"}}' id='space-close'></div>Die Meute ist geschlossen!<br><div id='space-status'><a href='http://status.metameute.de/' target='_blank'>Status</a></div>";
+		}
+	}).catch(error => {
+
+	});
+}
+</script>
+
+<div id="spaceopen">
+	Ob die MetaMeute offen ist siehst du <a href='https://status.metameute.de' target='_blank'>hier</a><p>Oder aktiviere Javascript</p>
+</div>
