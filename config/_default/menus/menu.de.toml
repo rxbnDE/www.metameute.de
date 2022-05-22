@@ -7,20 +7,23 @@
 [[main]]
   name = "Projekte"
   identifier = "projs"
-  weight = -108
+  weight = -100
+  url = "projects/"
 [[main]]
   parent = "projs"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
+  name = "Übersicht"
+  url = "projects/"
+  weight = -99
 [[main]]
   parent = "projs"
-  name = "Twitter"
-  url = "https://twitter.com/"
+  name = "Rechenknecht"
+  url = "projects/rechenknecht/"
+  weight = -98
 
 [[main]]
   name = "Über Uns"
   url = "about/"
-  weight = -107
+  weight = -90
 
 # social menu links
 

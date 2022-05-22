@@ -5,22 +5,25 @@
 
 # Submenus are done this way: parent -> identifier
 [[main]]
-  name = "Links"
-  identifier = "Links"
-  weight = -108
+  name = "Projects"
+  identifier = "projs"
+  weight = -100
+  url = "projects/"
 [[main]]
-  parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
+  parent = "projs"
+  name = "Overview"
+  url = "projects/"
+  weight = -99
 [[main]]
-  parent = "Links"
-  name = "Twitter"
-  url = "https://twitter.com/"
+  parent = "projs"
+  name = "Server"
+  url = "projects/rechenknecht/"
+  weight = -98
 
 [[main]]
   name = "About"
   url = "about/"
-  weight = -107
+  weight = -90
 
 # social menu links
 
