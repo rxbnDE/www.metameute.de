@@ -15,6 +15,7 @@ categories:
 tags:
   - MetaMeute
 series: ['Neue alte Meute']
+draft: true
 ---
 
 2007, 2011, 2012 und so 

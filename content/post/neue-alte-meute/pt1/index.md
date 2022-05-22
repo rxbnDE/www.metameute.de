@@ -16,6 +16,7 @@ categories:
 tags:
   - MetaMeute
 series: ['Neue alte Meute']
+draft: true
 ---
 
 Story von wie woher so, du weißt.
