@@ -17,4 +17,4 @@ tags:
 series: ['Neue alte Meute']
 ---
 
-[Page bundles](https://gohugo.io/content-management/page-bundles/) are an optional way to [organize page resources](https://gohugo.io/content-management/page-resources/) within Hugo.
+2007, 2011, 2012 und so 
