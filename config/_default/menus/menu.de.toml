@@ -16,9 +16,14 @@
   weight = -99
 [[main]]
   parent = "projs"
+  name = "Night of Open Knowledge (NooK)"
+  url = "https://nook-luebeck.de/"
+  weight = -98
+[[main]]
+  parent = "projs"
   name = "Rechenknecht"
   url = "projects/rechenknecht/"
-  weight = -98
+  weight = -97
 
 [[main]]
   name = "Über Uns"
