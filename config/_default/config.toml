@@ -1,4 +1,4 @@
-baseurl = "https://metameute.de/"  # Include trailing slash
+baseurl = "https://www.metameute.de/"  # Include trailing slash
 # title = "Clarity"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
 copyright = "Copyright © 2007 - 2022, MetaMeute Autoren; all rights reserved."
 # canonifyurls = true
