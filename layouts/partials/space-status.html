@@ -9,7 +9,7 @@ ready(() => {
 
 function spaceopen() {
 
-	fetch("/status/spaceapi.json").then(data => {
+	fetch("https://status.metameute.de/status/spaceapi.json").then(data => {
 		console.log(data);
 		if(data.open) {
 		console.log("OPEN");
