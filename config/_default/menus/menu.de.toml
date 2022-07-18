@@ -30,6 +30,11 @@
   url = "about/"
   weight = -90
 
+[[main]]
+  name = "Impressum"
+  url = "impressum/"
+  weight = -80
+
 # social menu links
 
 [[social]]

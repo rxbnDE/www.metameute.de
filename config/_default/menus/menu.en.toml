@@ -30,6 +30,11 @@
   url = "about/"
   weight = -90
 
+[[main]]
+  name = "Legal Notice"
+  url = "https://metameute.de/impressum/"
+  weight = -80
+
 # social menu links
 
 [[social]]
