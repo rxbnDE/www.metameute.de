@@ -26,14 +26,19 @@
   weight = -97
 
 [[main]]
+  name = "Raum/Space"
+  url = "meutespace/"
+  weight = -90
+
+[[main]]
   name = "Über Uns"
   url = "about/"
-  weight = -90
+  weight = -80
 
 [[main]]
   name = "Impressum"
   url = "impressum/"
-  weight = -80
+  weight = -70
 
 # social menu links
 
