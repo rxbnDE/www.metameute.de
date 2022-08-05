@@ -3,17 +3,21 @@
 	max-width: 10rem !important
 
 #spaceopen
+	display: flex
+	flex-wrap: nowrap
+	flex-direction: row
+	justify-content: space-between
 	margin: 1rem 0
+	padding: 0 0.5rem
+	*
+		align-self: center
 	img
 		float: left
 		&#space-close
 			width: 40px
-			margin: .5rem
+			margin: .4rem
 			filter: invert(43%) sepia(83%) saturate(1374%) hue-rotate(330deg) brightness(99%) contrast(99%)
 		&#space-open
 			width: 40px
-			margin: .5rem
+			margin: .4rem
 			filter: invert(22%) sepia(100%) saturate(4362%) hue-rotate(109deg) brightness(95%) contrast(104%)
-	#space-status
-			margin-right: 1rem
-			text-align: right

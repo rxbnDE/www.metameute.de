@@ -16,11 +16,11 @@ function spaceopen() {
 		if(data.open) {
 		console.log("OPEN");
 		document.querySelector("#spaceopen").style.border = "3px solid green";
-		document.querySelector("#spaceopen").innerHTML = "<div><img src='{{ absURL "/icons/meute-icon.png"}}' id='space-open'></div>Die Meute ist offen!<br><div id='space-status'><a href='http://status.metameute.de/' target='_blank'>Status</a></div>";
+		document.querySelector("#spaceopen").innerHTML = "<img src='{{ absURL "/icons/meute-icon.png"}}' id='space-open'><span>Die Meute ist offen!</span><a href='http://status.metameute.de/' target='_blank'>Status</a>";
 		} else {
 		console.log("CLOSED");
 		document.querySelector("#spaceopen").style.border = "3px solid red";
-		document.querySelector("#spaceopen").innerHTML = "<div><img src='{{ absURL "/icons/meute-icon.png"}}' id='space-close'></div>Die Meute ist geschlossen!<br><div id='space-status'><a href='http://status.metameute.de/' target='_blank'>Status</a></div>";
+		document.querySelector("#spaceopen").innerHTML = "<img src='{{ absURL "/icons/meute-icon.png"}}' id='space-close'><span>Die Meute ist geschlossen!</span><a href='http://status.metameute.de/' target='_blank'>Status</a>";
 		}
 	}).catch(error => {
 
