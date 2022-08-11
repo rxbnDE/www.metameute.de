@@ -26,4 +26,28 @@ Wir sind im Gebäude 64, Raum 82 des Erdgeschosses.
 
 
 <h3 id="osm">OpenStreetMap</h3>
-<iframe width="500" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.702569186687471%2C53.83309179287187%2C10.70610970258713%2C53.83447678777416&amp;layer=mapnik&amp;marker=53.83378350462236%2C10.704339444637299" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=53.83378&amp;mlon=10.70434#map=19/53.83378/10.70434">Geht das noch größer?</a></small>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+   crossorigin="anonymous">
+
+<div id="mapid" style="height: 40rem; max-height: 100vmin;" class="my-5"></div>
+
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+   integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+   crossorigin="anonymous"></script>
+
+<script>
+  var loc = [53.83378, 10.70434];
+  var mymap = L.map('mapid').setView(loc, 19);
+  var marker = L.marker(loc).addTo(mymap);
+
+  marker.on('click', function (e) {
+    window.open('https://www.openstreetmap.org/#map=16/' + loc[0] + '/' + loc[1], '_blank');
+  });
+
+  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(mymap);
+</script>
+<small><a href="https://www.openstreetmap.org/?mlat=53.83378&amp;mlon=10.70434#map=19/53.83378/10.70434">Geht das noch größer?</a></small>
