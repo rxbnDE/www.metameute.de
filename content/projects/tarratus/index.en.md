@@ -8,7 +8,7 @@ categories:
   - projects
 tags:
   - projects
-draft: true
+draft: false
 ---
 
 Big TODO

@@ -21,9 +21,19 @@
   weight = -98
 [[main]]
   parent = "projs"
-  name = "Rechenknecht"
-  url = "projects/rechenknecht/"
+  name = "Tarratus"
+  url = "projects/tarratus/"
   weight = -97
+[[main]]
+  parent = "projs"
+  name = "LaserTag"
+  url = "#"
+  weight = -96
+[[main]]
+  parent = "projs"
+  name = "Data Mining"
+  url = "#"
+  weight = -95
 
 [[main]]
   name = "Raum/Space"
