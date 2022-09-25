@@ -1,7 +1,7 @@
 ---
 title: "Tarratus"
 description: "Tarratus ist das Herzstück unserer Infrastruktur"
-date: "2022-05-15"
+date: "2022-09-24"
 author: "MetaMeute"
 categories:
   - Projekte
