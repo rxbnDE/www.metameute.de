@@ -14,13 +14,11 @@ function spaceopen() {
 	.then(function(data) {
 		console.log(data);
 		if(data.open) {
-		console.log("OPEN");
 		document.querySelector("#spaceopen").style.border = "3px solid green";
-		document.querySelector("#spaceopen").innerHTML = "<img src='{{ absURL "/icons/meute-icon.png"}}' id='space-open'><span>Die Meute ist offen!</span><a href='http://status.metameute.de/' target='_blank'>Status</a>";
+		document.querySelector("#spaceopen").innerHTML = "<img src='{{ absURL "/icons/meute-icon.png"}}' id='space-open'><span>{{ i18n "space_status_open"}}</span><a href='http://status.metameute.de/' target='_blank'>Status</a>";
 		} else {
-		console.log("CLOSED");
 		document.querySelector("#spaceopen").style.border = "3px solid red";
-		document.querySelector("#spaceopen").innerHTML = "<img src='{{ absURL "/icons/meute-icon.png"}}' id='space-close'><span>Die Meute ist geschlossen!</span><a href='http://status.metameute.de/' target='_blank'>Status</a>";
+		document.querySelector("#spaceopen").innerHTML = "<img src='{{ absURL "/icons/meute-icon.png"}}' id='space-close'><span>{{ i18n "space_status_closed"}}</span><a href='http://status.metameute.de/' target='_blank'>Status</a>";
 		}
 	}).catch(error => {
 
@@ -30,7 +28,7 @@ function spaceopen() {
 
 <div id="spaceopen">
 	<div class="no-js">
-		<p>Ob die MetaMeute offen ist siehst du <a href='https://status.metameute.de' target='_blank'>hier</a></p>
-		<p>Oder aktiviere Javascript</p>
+		<p>{{ i18n "space_status_nojs_first"}} <a href='https://status.metameute.de' target='_blank'>{{ i18n "space_status_nojs_second"}}</a></p>
+		<p>{{ i18n "space_status_nojs_third"}}</p>
 	</div>
 </div>

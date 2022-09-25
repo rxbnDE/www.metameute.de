@@ -70,3 +70,15 @@ other = "Beiträge in dieser Serie"
   other = "Abfrage ist zu kurz"
 [type_to_search]
   other = "Zum Suchen eingeben"
+
+# space status
+[space_status_open]
+  other = "Die Meute ist offen!"
+[space_status_closed]
+  other = "Die Meute ist geschlossen!"
+[space_status_nojs_first]
+  other  = "Ob die MetaMeute offen ist siehst du"
+[space_status_nojs_second]
+  other = "hier"
+[space_status_nojs_third]
+  other = "Oder aktiviere Javascript"

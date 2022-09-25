@@ -70,3 +70,15 @@ other = "Posts in this series"
   other = "Query is too short"
 [type_to_search]
   other = "Type to search"
+
+# space status
+[space_status_open]
+  other = "The space is open!"
+[space_status_closed]
+  other = "The space is closed!"
+[space_status_nojs_first]
+  other  = "You can see whether the space is open "
+[space_status_nojs_second]
+  other = "here"
+[space_status_nojs_third]
+  other = "Or enable javascript"
