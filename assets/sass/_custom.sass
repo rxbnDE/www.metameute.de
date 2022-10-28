@@ -1,3 +1,9 @@
+$bp_sm: 576px
+$bp_md: 768px
+$bp_lg: 992px
+$bp_xl: 1200px
+$bp_xxl: 1400px
+
 .logo
 	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(17deg) brightness(104%) contrast(104%)
 	max-width: 10rem !important
@@ -10,6 +16,9 @@
 	margin: 1rem 0
 	padding: 0 0.5rem
 	border: 3px solid orange
+	@media only screen and (max-width: $bp_lg)
+		flex-direction: column
+		text-align: center
 	*
 		align-self: center
 	.no-js
@@ -30,6 +39,8 @@
 			width: 40px
 			margin: .4rem
 			filter: invert(22%) sepia(100%) saturate(4362%) hue-rotate(109deg) brightness(95%) contrast(104%)
+		@media only screen and (max-width: $bp_xl)
+			display: none
 
 
 .nav_header
